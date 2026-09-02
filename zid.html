@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>STUDENT SIGN UP</h1>
+    <p class="subtitle">Create your student account</p>
+
+    <hr>
+
+    <!-- INSTRUCTIONS -->
+    <div class="section">
+        <h2>Instructions</h2>
+
+        <ol>
+            <li>Fill out all the required information.</li>
+            <li>Enter a valid email address.</li>
+            <li>Create and confirm your password.</li>
+            <li>Select your gender and course.</li>
+            <li>Review your information before submitting.</li>
+        </ol>
+    </div>
+
+    <!-- OBJECTIVES -->
+    <div class="section">
+        <h2>Objectives</h2>
+
+        <ol>
+            <li>To collect the student's basic information.</li>
+            <li>To allow students to create an account.</li>
+            <li>To practice using different HTML form elements.</li>
+        </ol>
+    </div>
+
+    <!-- SIGN UP FORM -->
+    <div class="form-box">
+
+        <h2>Create Your Account</h2>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email</label>
+            <input type="email" placeholder="example@email.com">
+
+            <label>Password</label>
+            <input type="password" placeholder="Create password">
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm password">
+
+            <label>Date of Birth</label>
+            <input type="date">
+
+            <label>Gender</label>
+
+            <div class="radio">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+
+            <label>Course</label>
+
+            <select>
+                <option>Select your course</option>
+                <option>BS Information Technology</option>
+                <option>BS Computer Science</option>
+                <option>BS Business Administration</option>
+                <option>BS Education</option>
+            </select>
+
+            <label>Contact Number</label>
+            <input type="tel" placeholder="09XXXXXXXXX">
+
+            <div class="terms">
+                <input type="checkbox">
+                I agree to the terms and conditions.
+            </div>
+
+            <div class="buttons">
+                <input type="submit" value="Sign Up">
+                <input type="reset" value="Clear">
+            </div>
+
+        </form>
+
+    </div>
+
+    <p class="footer">© 2026 Student Sign Up Page</p>
+
+</div>
+
+</body>
+</html>
